@@ -23,7 +23,7 @@ function errno-grep -d "Searches for error codes"
         if [ "$search_term" -eq "$search_term" ]
             set search_term "^$search_term "
         else if not [ "$flag" = "" ]
-            set search_term "  $search_term  "
+            set search_term "  $search_term"
         end
         set errno_output (echo "$errno_input" | grep -i "$search_term")
     end
