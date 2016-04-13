@@ -33,7 +33,21 @@ $ errno-grep argument
 33   EDOM             Math argument out of domain of func
 ```
 
-Tab-completions for error labels (like EINVAL) are available.
+Tab-completions for error labels (like EINVAL) are available. There are also switches to only output one column:
+
+ -n Output error number
+ -l Output error label
+ -m Output error message
+
+Note: If you are using one of those switches, the search expression has to match one column exactly.
+
+```fish
+$ errno-grep -n EINVAL
+22
+
+$ errno-grep -m EINVAL
+Invalid argument
+```
 
 # License
 
