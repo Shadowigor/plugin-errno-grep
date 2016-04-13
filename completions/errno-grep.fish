@@ -1,3 +1,7 @@
+complete -c errno-grep --no-files -s n -d "Only output the error number"
+complete -c errno-grep --no-files -s l -d "Only output the error label"
+complete -c errno-grep --no-files -s m -d "Only output the error message"
+
 complete -c errno-grep --no-files -a "EPERM" -d "Operation not permitted"
 complete -c errno-grep --no-files -a "ENOENT" -d "No such file or directory"
 complete -c errno-grep --no-files -a "ESRCH" -d "No such process"
