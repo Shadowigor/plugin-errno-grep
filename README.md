@@ -35,9 +35,9 @@ $ errno-grep argument
 
 Tab-completions for error labels (like EINVAL) are available. There are also switches to only output one column:
 
- -n Output error number
- -l Output error label
- -m Output error message
+* -n Output error number
+* -l Output error label
+* -m Output error message
 
 Note: If you are using one of those switches, the search expression has to match one column exactly.
 
