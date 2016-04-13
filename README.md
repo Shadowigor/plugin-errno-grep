@@ -42,7 +42,7 @@ Tab-completions for error labels (like EINVAL) are available.
 
 [mit]:            http://opensource.org/licenses/MIT
 [author]:         http://github.com/Shadowigor
-[contributors]:   https://github.com/Shadowigor/pkg-errno-grep/graphs/contributors
+[contributors]:   https://github.com/Shadowigor/plugin-errno-grep/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
